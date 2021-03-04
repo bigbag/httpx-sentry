@@ -43,7 +43,7 @@ setup(
     platforms=["POSIX"],
     classifiers=CLASSIFIERS,
     python_requires=">=3.7",
-    install_requires=["httpx==0.17.0", "sentry-sdk==0.20.3"],
+    install_requires=["httpx==0.17.0", "sentry-sdk==1.0.0"],
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
